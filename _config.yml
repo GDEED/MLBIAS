@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "Bias in Machine Learning"
-email: "team@mlbias.org"
+email: "teammlbias@gmail.com"
 description: "Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA"
 baseurl: ""
 url: "https://mlbias.org"
