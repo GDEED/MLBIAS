@@ -1,0 +1,123 @@
+-
+  id: 0
+  name: "STEVEN MAX"
+  surname: "PATTERSON"
+  title: ""
+  thumbnailUrl: StevePatterson.png
+  team: true
+  ribbon:
+    - {abbr: "", title: ""}
+  social:
+    - {name: "twitter", link: "https://twitter.com/stevep2007?lang=en"}
+  description: "Steven is a project manager and journalist contributing to Ars Technica, Quartz, Fast Company, and IDG. He is the president of non-profit Grassroots Developer Education, Inc. that provides free education in new technology to designers, developers, and engineers. He has worked to expand the application of AR and VR into new fields and educate designers and developer community in spatial computing since 2014 and led the Reality Virtually Hackathon at the MIT Media Lab since 2016."
+-
+  id: 1
+  name: "LIZ"
+  surname: "LEHTONEN"
+  title: ""
+  thumbnailUrl: LizLehtonen.jpg
+  team: true
+  ribbon:
+    - {abbr: "", title: ""}
+  social:
+    - {name: "twitter", link: "https://twitter.com/liz_lehtonen?lang=en"}
+  description: "Liz is the Senior Product Manager for XR at Wayfair. In her 8 years as a Product Manager and 5 years as a designer, she has specialized in customer focused innovation, team building & solving problems. Before moving to Boston and joining Wayfair, she ran the world building team for Game of the Year 2014 (Dragon Age: Inquisition) and gameplay team for Anthem at BioWare in Canada. Earlier, she was a game designer in Oxford UK for Sony & EA, and started her career at a 10 employee startup called Rovio in Finland.  She spends her spare time taking courses, working with special interest groups (such as the DAR or Bias in Machine Learning group) and playing board & video games with her kids."
+-
+  id: 2
+  name: "CANSU"
+  surname: "CANCA"
+  title: ""
+  thumbnailUrl: CansuCanca.jpeg
+  team: true
+  ribbon:
+    - {abbr: "", title: ""}
+  social:
+    - {name: "twitter", link: "https://twitter.com/ccansu?lang=en"}
+  description: "Cansu is a philosopher and the founder/director of the AI Ethics Lab, where she leads teams of computer scientists and legal scholars to provide ethics analysis and guidance to researchers and practitioners. She has a Ph.D. in philosophy specializing in applied ethics. She works on ethics of technology and population-level bioethics with an interest in policy questions. Prior to the AI Ethics Lab, she was a lecturer at the University of Hong Kong, and a researcher at the Harvard Law School, Harvard School of Public Health, Harvard Medical School, Osaka University, National University of Singapore, and the World Health Organization."
+-
+  id: 3
+  name: "KRIS"
+  surname: NYBAKKEN
+  title: ""
+  thumbnailUrl: KrisNybakken.png
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Kris Nybakken is an accomplished entrepreneur, engineer and artist, skilled in high technology, operations, corporate finance, and company building.
+Kris was the first CTO of WebMD and OPEXEngine, a seed investor and Board Member of Tiempo Development, and Chairman of Defensoft. He is a co-inventor of seminal, patented technology for using machine learning to profile users and content.
+Kris has worked in media, education, healthcare, and finance. He also led diligence on a large international biofuel manufacturing project, owned one of Silicon Valley’s largest fumigation companies for a dozen years, raised natural cattle in Arizona, and launched initiatives for non-profits.
+Kris grew up in rural New England and urban New York, works around the world, and now lives in Boston."
+-
+  id: 4
+  name: "RANIA"
+  surname: "EZZO"
+  title: ""
+  thumbnailUrl: RaniaEzzo.png
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Rania Ezzo is a neuroimaging data analyst at Massachusetts General Hospital with a background in philosophy. She is fascinated by how we form mental and virtual representations of our complex world. Her current research relates to visual and language aphasias. At MIT, she worked on a multi-site project that that used fMRI data to investigate face processing in individuals with autism. Her work at BU involved analyzing eye-tracking data to understand visual attention and the role of microsaccades. Her broader aims include dedication to open and reproducible science, continual dialogue about model interpretability, and the contextualization of contemporary findings in respect to the history of science."
+-
+  id: 5
+  name: "IMEN"
+  surname: "MAAROUFI"
+  title: ""
+  thumbnailUrl: ImenMaaroufi.png
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Imen Maaroufi, is a global thinker and a tech marketer. She worked in several tech startups and mid-sized companies in Asia, North America and North Africa. She focuses her carrier path on refining strategies for New Product Development and bringing these technologies to market. She works mainly with tech companies who establish Diversity & Inclusion through great use of disruptive technologies. Apart from her work, Imen loves participating in hackathons where she gets immersed in the coding community environment and gets to test the newest technologies. Imen loves traveling and she speaks five languages."
+-
+  id: 6
+  name: "PRAVEEN"
+  surname: ""
+  title: ""
+  thumbnailUrl: Praveeen.jpeg
+  team: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/Paravamu/"}
+  description: "Praveen has over 15 years software engineering industry experience in designing and implementing high-performance distributed software systems in various programming languages. Praveen is currently the Chief Technology Officer at Berkshire Hathaway Shoe Holdings Inc. Praveen is a hackathon “geek” ready to join a team, and frequently a contributor to a winning team. He mentors young developers and enjoys conversation about technology past/present/future. Praveen holds Masters in Information Technology and Computer Science from Syracuse University."
+-
+  id: 7
+  name: "FRANK"
+  surname: ""
+  title: ""
+  thumbnailUrl: Frank.png
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Frank is a Machine Leaning Engineer. He has a very eclectic background gained through his extensive international academic and professional career. These days he is working in projects that touch very diverse fields like Data Science, AR/VR, Physics and Cybersecurity."
+-
+  id: 8
+  name: "HAMZEH"
+  surname: ""
+  title: ""
+  thumbnailUrl: HamzehGolZaroudi.jpg
+  team: true
+  social:
+    - {name: "", link: ""}
+  description: "Hamzeh is a research engineer at AIR Worldwide (AIR). AIR is a risk modeling and data analytics company headquartered in Boston, Massachusetts, with customers in insurance, reinsurance, financial services, and government markets. AIR founded the catastrophe modeling industry in 1987 and today models the risk from natural catastrophes in more than 90 countries around the globe. With a PhD in Structural Engineering, Hamzeh is interested to learn more about Machine Leaning and its applications in catastrophic modeling industry."
+-
+  id: 7
+  name: "CARL"
+  surname: "YANG"
+  title: ""
+  thumbnailUrl: CarlYang.png
+  team: true
+  ribbon:
+    - {abbr: "", title: ""}
+  social:
+    - {name: "", link: ""}
+  description: "Carl is a creative and methodical strategist committed to generating business value by helping enterprises develop empathy for their stakeholders' wants, needs, and motivations to create solutions that meet the demands of the market.  He has led new product development and service design initiatives for global consultancies, established enterprises, academic institutions, and startups for over two decades.  His approach applies systems thinking and technology savvy to accelerate organizational transformation with cost discipline.  Carl is also a practicing futurist."
+-
+  id: 10
+  name: "EILEEN"
+  surname: "HING"
+  title: ""
+  thumbnailUrl: EileenHing.png
+  team: true
+  ribbon:
+    - {abbr: "team", title: "Our Team"}
+  social:
+    - {name: "", link: ""}
+  description: "Eileen Hing is founder and CEO of ZIOS Corporation, a technology company with over $18M in defense contracts. Eileen is an inventor and innovator with eight granted patents in cybersecurity and more patents pending. She strives to make technology more inclusive and diverse. Her background is in chemistry and computer science. As an undergraduate, Eileen was mentored by Dr. Richard F. Heck, the 2010 Nobel laureate in Chemistry and worked on his Palladium catalyzed reactions. She is currently working on commercialization of her patented cybersecurity catalyst technology and launching a blockchain startup. Eileen can also make a mean chocolate souffle."

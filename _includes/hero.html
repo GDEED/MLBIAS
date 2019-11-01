@@ -1,0 +1,73 @@
+<!-- Begin Hero Section -->
+<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
+    {% include navigation.html %}
+    <div class="content-wrapper">
+    <div class="jumbotron">
+
+
+        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+            {% assign heroText = site.heroTitle | split:"<typeout></typeout>" %}
+
+            <!--Typeout text-->
+            <!--<h1>{{ heroText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>-->
+
+            <h1>{{ heroText[0] }} {{ heroText[1] }}</h1>
+
+
+
+
+
+
+            <p>{{ site.eventDate }}</p>
+            {% for button in site.heroButtons %}
+            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+            {% endfor %}
+
+
+
+            <p><a href="{{ site.heroDescriptionLink }}" style="color:white!important;">{{site.heroDescription}}</a></p>
+
+
+            <!--Description of the event Description of the event Description of the event Description of the event Description of the event Description of the event Description of the event Description of the event Description of the-->
+                <!--Description of the event Description of the event Description of the event Description of the event Description of the event-->
+                <!--Description of the event Description of the event Description of the event Description of the event Description of the event-->
+
+
+            <!--</span>-->
+
+
+
+
+
+
+
+
+
+            <!--<button class="button btn-lg" type="text" style="text-shadow: 0 1px 5px rgba(0,0,0,0.5);font-weight: normal;color: white;background-color: transparent;border: 2px solid white;" data-toggle-modal="register" id="registrationButtonLG">{{site.notifyMeButtonText}}</button>-->
+
+            <!--Geti tickets button-->
+            <!--<a href="https://www.eventbrite.com/e/2019-public-expo-for-the-reality-virtually-hackathon-tickets-54512364951" target="_blank"><button class="button btn-lg" type="text" style="text-shadow: 0 1px 5px rgba(0,0,0,0.5);font-weight: normal;color: #d5df2a;background-color: transparent;border: 2px solid white;"  >Tickets</button></a>-->
+            <br>
+
+
+            <div style="padding-top:15px; font-size:1.3em;">
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- <a href="#about" class="explore">
+
+
+        <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
+        </svg>
+    </a> -->
+    </div>
+</section>
+<!-- End Hero Section -->

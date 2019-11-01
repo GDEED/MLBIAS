@@ -1,0 +1,28 @@
+-
+  id: 0
+  heading: "Socially and functionally diverse approach to machine learning education"
+  text: "We are a team of socially and functionally diverse professionals that began work during the summer of 2019 at the Cambridge Innovation Center. We formed a working group to experiment with new methods for teaching new technology to interdisciplinary teams. The agreed goal of this group is to learn a new technology subject, then create a curriculum that individual interdisciplinary teams could freely use to learn the new subject.
+  </br>The team debated many new technologies, coalescing on one: the remediation of the unintended consequences of AI and machine learning because of the significant risks to companies using the technology and the impact on society. "
+  image:
+-
+  id: 1
+  heading: "AI: Big opportunities and big risks"
+  text: "Machine learning presents predictive opportunities considered to be infeasible a decade ago. These opportunities are accompanied by unintended consequences and the responsibility to ameliorate them."
+  image:
+-
+  id: 2
+  heading: "Working group member profile"
+  text: "The individuals in our working group represent the roles typically found on interdisciplinary teams in institutions and enterprises that will use the curriculum. The curriculum will educate teams to remediate the machine learning errors resulting in racial, gender and other bias, legal risks, negative social impact, and financial losses. Typical function roles the curriculum will address are marketing managers, ad buyers, product managers, designers, developers, ML experts, and data scientists."
+  image:
+-
+  id: 3
+  heading: "Curriculum development method"
+  text: "The working group adopted the dogfooding approach to learning. Dogfooding, or eating our own dog food means, using the curriculum ourselves to test and refine it. Working together, we are teaching each other role-based knowledge, so that we can operate like an interdisciplinary team would in enterprises and institutions.
+  </br>
+  It is important that public and private sector teams that adopt AI and machine learning are educated in their role-based responsibilities to avoid doing the harm that accompanies AI and machine learning. By educating multiple organizational levels and functional roles in public and private sector organizations of their responsibilities, new systems will be designed with fewer material errors, errors will be identified earlier in the deployment of intelligent systems, and AI and machine learning teams will be resourced to reduce material errors resulting in unintended biases."
+  image:
+-
+  id: 4
+  heading: "MLBIAS project status and next stage"
+  text: "The working group has held numerous sessions to review and learn relevant topics including, machine learning technology, ethics, law and sociology, and anthropology. We are raising money to assemble the curriculum, and invite interdisciplinary teams to a proof of concept (“POC”) educational session."
+  image:

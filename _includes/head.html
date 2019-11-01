@@ -1,0 +1,193 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="author" content="Grassroots Developer Education">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.metaKeywords }}">
+    <meta name="google-site-verification" content="{{ site.siteVerification }}" />
+    <link rel="canonical" href="{{ site.url }}">
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.twitterAccount }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+
+
+    {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+        <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.socialImageSrcTwitter %}
+        <meta name="twitter:image:src" content="{{ page.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}">
+    {% else %}
+        <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{% if page.permalink %}{{ page.permalink | prepend: site.baseurl | prepend: site.url }}{% else %} {{site.url}} {% endif %}" />
+    {% if page.socialImageSrcFacebook %}
+        <meta property="og:image" content="{{ page.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}">
+    {% else %}
+        <meta property="og:image" content="{{ site.socialImageSrcFacebook | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+
+    {% if page.description %}
+        <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
+        <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ "/img/favicons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ "/img/favicons/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ "/img/favicons/apple-touch-icon-120x120.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ "/img/favicons/apple-touch-icon-114x114.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ "/img/favicons/apple-touch-icon-76x76.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ "/img/favicons/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ "/img/favicons/apple-touch-icon-60x60.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ "/img/favicons/apple-touch-icon-57x57.png" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-196x196.png" sizes="196x196" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-160x160.png" sizes="160x160" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-96x96.png" sizes="96x96" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-32x32.png" sizes="32x32" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-16x16.png" sizes="16x16" | prepend: site.baseurl }}">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="{{ "/img/favicons/mstile-144x144.png" | prepend: site.baseurl }}">
+    <meta name="msapplication-config" content="{{ "/img/favicons/browserconfig.xml" | prepend: site.baseurl }}">
+
+    <meta name="theme-color" content="#2b5797">
+
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ " /css/team2019.css " | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <script src="/js/jquery-2.1.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+    <!-- Trigger/Open The Modal -->
+    <!--<button id="myBtn">Open Modal</button>-->
+
+    <!-- The Modal -->
+    <!--Todo:Move modal to respective place-->
+    <div id="registrationModal" class="modal" style="z-index:999; display:none;">
+
+        <span class="close" style="color:white">&times;</span>
+        <!-- Modal content -->
+        <div class="modal-content container-fluid">
+            <h1>We'll keep you up to date</h1>
+            <!--<p>Some text in the Modal..</p>-->
+            <form id="gform" method="POST" id="test-form">
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="firstname">First Name:</label>
+                    <input type="text" class="form-control" name="firstname">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="lastname">Last Name:</label>
+                    <input type="text" class="form-control" name="lastname">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="city">City:</label>
+                    <input type="text" class="form-control" name="city">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="state">State / Province:</label>
+                    <input type="text" class="form-control" name="state">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="country">Country:</label>
+                    <input type="text" class="form-control" name="country">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="student">Student Affiliation:</label>
+                    <input type="text" class="form-control" name="student">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="minority">Self identified minority group you represent:</label>
+                    <input type="text" class="form-control" name="minority">
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="gender">Gender:</label>
+                    <select class="form-control" name="gender">
+                        <option></option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Prefer not to specify</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="age">Age range:</label>
+                    <select class="form-control" name="age">
+                        <option></option>
+                        <option>0-24</option>
+                        <option>25-64</option>
+                        <option>65-74</option>
+                        <option>75+</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4 col-xs-12 col-sm-6">
+                    <label name="email">Email Address:</label>
+                    <input type="text" class="form-control" name="email">
+                </div>
+
+                <input class="btn btn-success center-block col-md-12 col-xs-12 col-sm-12" type="submit"/>
+                <!--<button class="btn btn-success center-block col-md-12 col-xs-12 col-sm-12" id="submit-form">Submit</button>-->
+            </form>
+        </div>
+    </div>
+
+
+    <!--//TODO:Move-->
+    <style>
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+  </head>

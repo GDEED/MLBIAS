@@ -1,0 +1,463 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: true
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "Bias in Machine Learning"
+email: "team@mlbias.org"
+description: "Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA"
+baseurl: ""
+url: "https://mlbias.org"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: ""
+googleAnalyticsSiteUrl: ""
+siteVerification: ""
+
+# Organizer Info
+organizerName: ""
+organizerAlternateName: ""
+organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerEmail: "team@mlbias.org"
+#organizerLogo: "/img/seo/mlb.png"
+organizerLink: "https://mlbias.org"
+
+# Head
+metaKeywords: "event, bias, machine learning, deep learning, programming, ethics, governance, research"
+twitterAccount: ""
+socialImageSrcGooglePlus: "/img/seo/rv2019-fb-logo.png"
+socialImageSrcTwitter: "/img/seo/rv2019-fb-logo.png"
+socialImageSrcFacebook: "/img/seo/rv2019-fb-logo.png"
+
+# Documents
+#c4pUrl: "https://bit.ly/dfua-c4p"
+#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+
+# Navigation
+navigationLinks:
+# - {calltoaction: true, permalink: "/#", text: "Get Updates", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
+ #- link: "/"
+  # text: "Home"
+ #- link: "/about/"
+#   text: "About"
+ #- link: "/team/"
+ # text: "Team"
+   #hasDropdown: true
+   #subNav:
+    #- link: "/faq/"
+    #  text: "FAQ"
+    #- link: "/hackathon-rules/"
+    #  text: "Rules"
+    #- link: "/team/"
+    #  text: "Team"
+#- link: "/workshops/"
+#  text: "Workshops"
+#- link: "/faq/"
+#  text: "FAQ"
+    #- link: "/blog/"
+    #  text: "Blog"
+    #- link: "/community_day/"
+    #  text: "Community Day"
+    #- link: "/symposium/"
+    #  text: "Symposium"
+    #- link: "https://pastevents.realityvirtuallyhack.com/"
+    #  text: "Past Events"
+    #  target: "_blank"
+# - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
+ - {link: "/", text: "Home", hasDropdown: false}
+ - {link: "/about/", text: "About", hasDropdown: false}
+ - {link: "/team/", text: "Team", hasDropdown: false}
+ #- {link: "/faq/", text: "FAQ", hasDropdown: false}
+ #- {link: "/workshops/", text: "Workshops", hasDropdown: false}
+ #- {link: "/sponsors/", text: "Sponsors", hasDropdown: false}
+ #- {link: "/mentors/", text: "Mentors", hasDropdown: false}
+ #- {link: "/winners/", text: "Winners", hasDropdown: false}
+ #- {link: "/schedule/", text: "Schedule", hasDropdown: false}
+
+# Hero Block
+heroImage: "Bc2.jpg"
+heroTitle: "Bias in Machine Learning"
+eventDate: "Research Group"
+heroDescription: "@ Cambridge, MA"
+heroDescriptionLink: "#location-map"
+#heroButtons:
+# - {link: "https://bit.ly/dfua-c4p", text: "Join our Initiative"}
+#eventDate: "January 17-21<sup>st</sup>, 2019"
+#typeoutTextValues: '" Hackathon"'
+#typeoutFallback: "Season"
+#notifyMeButtonText: "Notify me when applications open"
+
+#Other Happenings block
+#happeningsTitle: "Photos"
+#happeningOneTitle: "Community Talks"
+#happeningOneImage: "https://photos.smugmug.com/Events/Panel-on-the-Future-of-AR-VR/i-dHt7qzG/0/31a2a066/X3/DSC_6549-X3.jpg"
+#happeningOneText: "Join us for this FREE Event on Saturday, January 19th, 2019, at the Bartos Theater in the Wiesner Building at MIT for this year's Reality Virtually Hackathon Community Talks from 10AM to 3PM.<br><br>
+#We have so many talented people visiting the MIT Media Lab that we want to make them available to the greater Boston developer community at large."
+#happeningOneLink: "https://www.meetup.com/Boston-Virtual-Reality/events/258056344/?rv=ea1_v2&_xtd=gatlbWFpbF9jbGlja9oAJGZiMzEyM2U5LTc5ZjMtNDc2Ni1iZTkwLTRlMzdkMjQ2YjQzMw"
+#happeningOneLinkText: "More Info"
+#happeningTwoTitle: "Public Expo"
+#happeningTwoImage: "/img/hackathon/expo-hero-image.jpg"
+#happeningTwoText: "The Reality Virtually Public Expo will showcase the most cutting-edge developments in augmented reality and virtual reality created over a five day period by the 400 developers, designers, and AR/VR storytellers participating in the hackathon.<br>
+#<br>
+#<strong>When:</strong> January 21, 2019<br>
+#<strong>Time:</strong> 2 PM - 4:30 PM<br>
+#<strong>Where:</strong> MIT Media Lab 6th Floor 75 Amerherst Street Cambridge MA 02139
+#<br><br>
+#This is a chance to interact with novel and original AR/VR innovation and experiences running on the most advanced hardware and software platforms. Met the teams that developed these amazing experiences and meet the winners."
+#happeningTwoLink: "https://www.eventbrite.com/e/2019-public-expo-for-the-reality-virtually-hackathon-tickets-54512364951"
+#happeningTwoLinkText: "Get Tickets"
+
+
+# About Block
+aboutTitle: "About the MLBIAS Working Group"
+aboutHeaderBody: "The Reality Virtually Hackathon brings together interdisciplinary minds to explore the application of virtual reality and augmented reality technologies for building new experiences. We encourage developers, designers, engineers, artists, coders, experts, sound designers, storytellers, students, creatives, and imaginative AR/VR enthusiasts to apply."
+aboutBlock:
+ - {title: "Hackathon", image: "mitmedialab_hackathon.png", text: "During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications. There will be very skilled mentors to help out along the way. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more." }
+ - {title: "Expo", image: "expo.png", text: "On the last day, there will be an Insider Expo beginning at 11:30 AM when participants will see and experience other teams XR projects. From 2:00 PM to 5:00 PM the Expo will be opened to the MIT and Boston/Cambridge AR/VR technology community at large." }
+ - {title: "Workshops", image: "mitmedialab_workshops.jpg", text: "The hackathon will lead with a full day of workshops to get people ready to contribute to their team’s project. Come and tame your favorite technology. You can check out last year’s workshop schedule <a href=\"https://pastevents.realityvirtuallyhack.com/workshops\">here</a>." }
+aboutMainBodyTitle: "Creating a curriculum for organizations to manage machine learning to alleviate bias"
+#aboutMainBodyHeading: "Creating a curriculum for organizations to manage machine learning to alleviate bias"
+
+
+#Recap
+recapBackgroundImage: ""
+recapText: "Watch last years recap"
+
+#Quotes from Sponsors
+quotesFromSponsorsBackground: ""
+quotesFromSponsors:
+ - { quote: "Many of the things that you saw created here you might see on a virtual store shelf next year or even sooner." , sponsor: "Richard Marks Head of PlayStation Magic Lab"}
+ - { quote: "The quality of ideas, diversity, and scale of the Reality Virtually Hackathon has been impressive. It's a thrill to be supporting the VR and AR communities at the grassroots level.", sponsor: "Nick Nigam, Venture Investor at Samsung's Global InnovationCenter"}
+ - { quote: "Very interesting to walk around, great diversity, the most diverse hackathon I have ever been too.", sponsor: "Benjamin Nelson, Sr. Product Marketing Manager at AT&T"}
+
+
+#Last Years Winners
+winnersTitle: "2017 Hackathon Grand Prize Winners"
+
+#VideoBanner
+videoBannerEmbedURL: "https://www.youtube.com/embed/jT_ti4HPC8s"
+
+
+#PrizeCategories
+# prizeCategoriesBackgroundImage: "statistic.jpg"
+# prizeCategoriesTitle: ""
+# prizeCategoriesSub: "Possible hackathon prize categories"
+# prizeCategoriesListStyleClass: "hover-green"
+# prizeCategories:
+#  - { name: "Social Good" , example: "Sustainability, Accessibility, Conflict Resolution, Civic Duty, Safety, Security"}
+#  - { name: "Mobility and Communications", example: "Automotive, Conferencing/Chat, Travel, Navigation, "}
+#  - { name: "Health and Wellness", example: "Healthcare, Medicine, Therapy, Mindfulness, Fitness"}
+#  - { name: "Art, Media and Entertainment", example: "Music, Visual Art, News/Journalism, Advertising"}
+#  - { name: "Games and Learning", example: "K-12 Education, Distance Learning, Job Training, Academic Topics (e.g. History, Science, etc.), Reference, Museums, games and application of game UX/UI and agency to other domains."}
+#  - { name: "Productivity", example: "Finance, Data Visualization, Engineering Design, Construction Design, Manufacturing Design, Utilities"}
+#  - { name: "Industrial and Commercial ", example: "Immersive technology and IoT, Construction, manufacturing, field service and eCommerce"}
+
+# - { category: "Other vertical or vertical AR or VR that participants are passionate about"}
+
+
+# Statistic Block
+# statisticBlockImage: "statisticsB.jpg"
+# statisticBlock:
+#  - {count: "400", specialCharacter: "+", info: "attendees", detail: ""}
+#  - {count: "43", specialCharacter: "", info: "%", detail: "diversity goal met"}
+#  - {count: "75", specialCharacter: "+", info: "", detail: "projects available under open source license"}
+#  - {count: "40", specialCharacter: "", info: "mentors", detail: "better than a 10:1 participant to mentor ratio"}
+
+
+# statisticBlockImageB: "judges.jpg"
+# statisticBlockB:
+#  - {count: "25", specialCharacter: "", info: "judges"}
+#  - {count: "20", specialCharacter: "+", info: "workshop leads", detail: ""}
+#  - {count: "5", specialCharacter: "+", info: "Days", detail: "of learning, building, new people and new ideas"}
+#
+# # Latest News Block
+# latestNewsTitle: "Latest news"
+#
+# # Rockstar Speakers Block
+# rockstarSpeakersImage: "rockstar-speakers.jpg"
+# rockstarSpeakersCount: 4
+# rockstarSpeakersTitle: "Rockstar speakers"
+# rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Cambridge Innovation Center (CIC)"
+#eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
+eventStreetAddress: "1 Broadway"
+eventAddressLocality: "Cambridge"
+eventAddressLocalityRegion: "Massachusetts"
+eventPostalCode: "02142"
+eventAddressCountry: "US"
+#eventStartTime: "2014-10-25T10:00"
+#eventDoorTime: "09:00"
+#eventEndTime: "2014-10-25T20:00"
+eventPlaceCoordinates: "42.3627, -71.0839"
+mapCenterCoordinates: "42.3627, -71.0839"
+mapMobileCenterCoordinates: "42.3627, -71.0839"
+
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "Kinopalace Cinema"
+venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "devfest"
+twitterFeed: ""
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: ""
+subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+# Tickets Block
+ticketsTitle: "Pricetable"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+ -
+  name: "Early Bird"
+  price: "350"
+  priceCurrency: "UAH"
+  ticketsNumber: "150"
+  ribbon: "-5%"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2014-08-25T10:00"
+  validThrough: "2014-09-30T23:59"
+ -
+  name: "Last Chance"
+  price: "450"
+  priceCurrency: "UAH"
+  ticketsNumber: "100"
+  ribbon: "-20%"
+  featured: true
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2014-10-01T00:00"
+  validThrough: "2014-10-23T23:59"
+  disabled: true
+ -
+  name: "Student"
+  price: "200"
+  priceCurrency: "UAH"
+  ticketsNumber: "50"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2014-08-20T10:00"
+  validThrough: "2014-10-23T23:59"
+  soldOut: true
+  soldOutText: "Sold Out"
+
+# Footer
+socialLinks:
+# - {link: "#", icon: "google-plus"}
+# - {link: "https://twitter.com/realityvrhack", icon: "twitter" }
+# - {link: "https://www.facebook.com/realityvrhack/", icon: "facebook"}
+# - {link: "https://www.instagram.com/realityvrhack/", icon: "instagram", fontawesome: "instagram"}
+# - {permalink: "/feed.xml", icon: "rss"}
+
+
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "https://www.mlbias.org/", text: "Machine Learning Bias"}
+#   - {link: "https://developers.google.com", text: "Google Developers"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:team@mlbias.org", text: "team@mlbias.org"}
+ -
+  title: "Information"
+  links:
+   - {permalink: "/faq/", text: "FAQ"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "Organizing Team"
+aboutUs: "The Reality Virtually Hackathon is organized by a dynamic team of industry experts, developers, executives, and students, reaching many facets of the VR|AR community."
+
+# Mentor Block
+mentorBlockTitle: "Mentors"
+
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "49.056728, 3.117289"
+logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "medialab.png"
+directionDetailsTitle: ""
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="https://lwo.aero/en/transport">airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+ - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+directionDetailsWideCards:
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "Hotels"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Registration"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Attendance Details"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+# Hackathon
+hackathonTitle: "Hackathon"
+enableHackathon: true
+
+# Hackathon About Block
+aboutHackathonTitle: ""
+hackathonRows:
+ - {title: "New this year", image: "FInalVersionLogo.png", details: "Participants in previous years have asked for more time to build, so we’ve added a fifth day to the schedule to expand creative time to almost 60 hours. Another request by participants was the opportunity to see the submissions built by other teams. On the last day of the hackathon, beginning right after the awards ceremony, the Insider Expo will begin, where participants can visit other teams’ tables to see their creative and original work. The hackathon will close with a public expo for the Boston/Cambridge AR/VR technology community at large."}
+ - {title: "Workshops", image: "Workshops.jpg", details: "The hackathon will kick off on January 17, 2019, with a full day of skill-building workshops on XR design, development, and XR platforms like the Vive, Hololens, and MagicLeap. Workshops will feature speakers covering hardware, development methodologies, and immersive design concepts."}
+ - {title: "Mentors", image: "Mentors.jpg", details: "Skilled in XR design, development, and with domain expertise in verticals such as healthcare and medicine, 40 mentors will help teams throughout the hackathon, coalescing individuals into teams, ideating, creating, troubleshooting, debugging, and refining for submission to the judges."}
+ - {title: "Our Mission and Commitment to Diversity", image: "Diversity.png", details: "The Reality, Virtually Hackathon is a platform that cultivates unique innovations in the field of immersive technology. Our mission is the creation of a community of inclusion, where imaginative minds across all dimensions of diversity can collaborate to inspire innovation and build better together."}
+
+frequentlyAskedQuestions:
+  - {question: "Who should attend the hackathon?", answer: "Attendees from all backgrounds, skills, genders, and geographies are welcome. We accept a wide range of applicants, from beginners, to experienced AR/VR hackathon veterans. Prior AR/VR experience is also not a requirement.", image: ""}
+  - {question: "How much prior VR/AR development or design experience is required to participate in the event?", answer: "No prior experience is required! Any prior experience is always useful; however, we will have lots of helpful design, platform and vertical workshops for those new to VR/AR and for experienced designers and developers seeking to improve their skills.", image: ""}
+  - {question: "Who will own any IP produced during the hackathon?", answer: "All IP produced during the Hackathon is required to be registered in the public domain under an open source license without residual rights to the IP and available for public use. The spirit of the Hackathon is to encourage innovation and collaboration. We want any developments created during the Hackathon to be openly shared with other participants after the event to foster further development for the benefit of the greater good and to be available to the public to spread awareness and appreciation of the creations made during the Hackathon. Additionally, we would like to cut out the potential for any conflict resulting from the creations. We want participants, to meet new people, form interdisciplinary teams that create original work that deepens our understanding of how XR technology can be applied, and, at the same time avoid any potential for IP disputes. MIT also has IP policies regarding creations by its students. Open source licensing avoids potential conflicts arising from have an MIT student team member. Lastly, IP protection often covers creations which are more fully developed. We expect that most material created over the weekend to be in a preliminary phase which may not be suitable for IP protection.. If you object to registering your work made during the Hackathon in the public domain with no residual rights, please do not participate in the event.", image: ""}
+  - {question: "Can I use paid assets in the hackathon?", answer: "The Reality, Virtually Hackathon is different from many others in its requirement that project sources need to be licensed for redistribution. This prohibits, for example, the use of paid assets from the Unity asset store. The test of compliance is to ask, can anyone, anyplace in the world download the application and run, modify it and resubmit it without any license or copyright fees. Please refer to the “hackathon rule” section for important conducts that participants are required to follow.", image: ""}
+  - {question: "Can we participate as a team in this hackathon?", answer: "We prefer that you come as an individual and form a team with new people that you meet here! Last year, all the members on the winning team became acquainted at the hackathon. They created memorable experiences together and found lifetime friendships. It’s the spirit of the hackathon this year. All the members also have to register for the event individually. One participant cannot represent a group to register for the hackathon.", image: ""}
+  - {question: "What if I come with a team?", answer: "We discourage hackathon teams. Teams arrive and leave hackathons with the same ideas which limits creativity. Split up and join a team where you can meet new people and become exposed to new ideas, create original work! Again, the application does not include the option for team registration because the judges will value original work and original code over everything else. The best way to win is with original work. The best source of original work is new ideas, enrich yourself and the hackathon by meeting new people.", image: ""}
+  - {question: "What do I enter in the affiliation field on the registration form?", answer: "Please enter your current employer, university, graduation year etc. It is NOT to be confused with your hackathon team, which will be formed on the Day 1 of the hackathon.", image: ""}
+  - {question: "What is the cost to attend the event?", answer: "It's free, there are no fees to attend the event! You just need to cover your own travel and lodging. We will provide you with plenty of food and beverages.", image: ""}
+  - {question: "Will there be any hardware/equipment available for project development?", answer: "If you have any equipment and can bring it (desktops/laptops/monitors/HMDs), we would encourage you to bring it. We will have equipment from sponsors for participants who do not have any equipment or are unable to bring it. If the supply of a platform does not meet the demand we will ask teams to share this equipment. This has not been a problem in the past.", image: ""}
+  - {question: "What should I bring?", answer: "All attendees are required to bring a valid government ID (ex: driver’s license, passport) for admission. Also, bring your laptop, and any hardware you wish to use in your hack. As mentioned we will have sponsors loaning out tons of hardware as well!", image: ""}
+  - {question: "I am bringing my own HTC Vive, how do I avoid lighthouse interference?", answer: "The MIT Media Lab has been engineered to avoid this problem. We will set up one large room for Tracker 2 Vive Pros which can be configured not to interfere with one another. There will also be a number of conference rooms that will serve 2 to five Vive teams using one team's shared lighthouses to avoid interference. If additional space is required for teams using Vives, we will direct you where to put up your lighthouses.", image: ""}
+  - {question: "Is this an overnight hackathon?", answer: "The MIT Media Lab will only be open from 7am-1am and re-opens again at 7am on Sunday.", image: ""}
+  - {question: "Where do I sleep?", answer: "Because of building policy, we have to close the hackathon at night. There are <a href=\"https://zh.airbnb.com/s/Cambridge--MA/all?s_tag=hGvUGIxM&allow_override%5B%5D=&refinement_paths%5B%5D=%2Ffor_you\">Airbnbs</a> and <a href=\"https://www.yelp.com/search?cflt=hostels&find_loc=Cambridge%2C+MA\">Hostels in Cambridge</a> for participants to take a rest and refresh themselves. There are many hotels in the area, the closest is a Marriot. Here is a <a href=\"https://institute-events.mit.edu/visit/where-to-stay\">list of hotels</a> near the institute. If you wish to share a room with another hacker, please join <a href=\"https://www.facebook.com/groups/362472424332578\"> FB group </a> and post inquiries. <br><br><b>Note:</b> Driving in Greater Boston can be difficult. Roads are hard to navigate, traffic is as abundant as can be found in Los Angeles, free street parking is limited and parking lots are expensive.", image: ""}
+  - {question: "Will travel reimbursements be available for those who travel from out of the area? Is there a travel scholarship?", answer: "The Reality Virtually Hackathon is free to participants so that the organizers can make the event as open and inclusive as possible. It is a non-profit event. We will have a limited budget to grant partial travel scholarships to students, based on need and merit. As we approach the date of the hackathon and know how much of the budget we can allocate to travel scholarships you will be able to apply for the travel scholarships. However, if you want to attend, you should not count on an award of these funds.", image: ""}
+  - {question: "What platforms do participants build upon?", answer: "Participants can build on any hardware and software platform the team choose. We do not want to limit your creativity and as long as you follow the rules, go ahead and build.", image: ""}
+  - {question: "Is there a deadline for application? When will I know whether I am accepted?", answer: "We will have rolling admissions. The first decision date is October 31. You will receive an emal from us to notify your acceptance status shortly thereafter. Applications are open until the time we are near our limit of 400 participants.", image: ""}
+  - {question: "How do I get there?", answer: "The Media Lab (Building E14) is located on the Red Line at the \"Kendall/MIT\" stop of the subway. If you are traveling from the airport, take the Silver Line 1 to South Station and transfer to the Redline. If you are traveling from the train station, take the Redline straight to Kendall/MIT. For more information on parking, public transportation and facilities around the campus please refer to the website: [https://whereis.mit.edu/](https://whereis.mit.edu/)", image: ""}
+  - {question: "What if this FAQ didn't answer my questions?", answer: "Please email us at team@realityvirtuallyhack.com if you’re in any way confused or concerned! We’d love to help you out :)", image: ""}
+  - {question: "Do you have my application? I didn’t receive an email confirmation.", answer: "When your application form goes through you will receive a confirmation of transmission on the website that reads: \"Thank you for your submission! We’ll keep you posted.\" You will not receive an email.", image: ""}
+  - {question: "Do I need to resubmit my application form again or just the resume?", answer: "Do not resubmit your application form. Just email your resume to us as an attachement. We will match it with your application. Please email your resume to team@realityvirtuallyhack.com using the same email included with your application. And please include your name in the filename of the resume.", image: ""}
+  - {question: "Do I have to submit a resume to be considered?", answer: "Including a resume is optional", image: ""}
+
+# Hackathon Judges Block
+judgesImage: "judges.jpg"
+judgesTitle: "Judges"
+
+# Hackathon Prizes Block
+prizesOverallTitle: "Overall Preliminary Winners"
+prizesOverall:
+ - {title: "Best AR", image: "logo_att.png", info: "$3,000 Cash Prize", winner: "Bright", link: "https://rv2019.devpost.com/submissions/108832-bright"}
+ - {title: "Best VR", image: "logo_vrarmit.jpg", info: "$3,000 Cash Prize", winner: "Move 2 Improve", link: "https://rv2019.devpost.com/submissions/108835-move2improve"}
+ - {title: "Best MR", image: "logo_att.png", info: "$3,000 Cash Prize", winner: "gARden Cards", link: "https://rv2019.devpost.com/submissions/108799-garden-cards"}
+ - {title: "Best use of WayRay's True AR SDK", image: "logo_wayray.png", info: "$3,000 Cash Prize", winner: "Wayrider", link: "https://devpost.com/software/accudrive"}
+ - {title: "Best use of Vuforia", image: "logo_ptc.jpg", info: "$2,500 Cash Prize", winner: "Ideate AR", link: "https://rv2019.devpost.com/submissions/109593-ideate-ar"}
+ - {title: "Best use of AR and IOT in industrial, Manufacturing and Field Service", image: "logo_ptc.jpg", info: "$2,500 Cash Prize", winner: "Acessibild", link:
+  "https://rv2019.devpost.com/submissions/108802-accessibild"}
+ - {title: "Best use of Autodesk forge cloud platform", image: "logo_autodesk.png", info: "$2,500 Cash Prize", winner: "Sound Space", link: "https://devpost.com/software/sound-space"}
+ - {title: "Best use of ESRI's AR SDK", image: "logo_esri.png", info: "$1,250 Cash Prize each", winner: "HighAR Ground", link: "https://devpost.com/software/highar-ground", winnerTwo: "Continuum", linkTwo: "https://devpost.com/software/continuum-dy1av0"}
+ - {title: "Best use of Magic Leap", image: "logo_magicleap.png", info: "$2,500 Cash Prize", winner: "CleARsight", link: "https://rv2019.devpost.com/submissions/109629-clear-sight"}
+ - {title: "Way-more", image: "logo_wayfair.png", info: "$2,500 Cash Prize <br><br>", description: "For the Way-more valuable hack prize, we're looking for a thoughtful & practical application of immersive technology that adds value to the world - so potential to solve a real world problem. It should be obvious that your hack can make an impact if you continued working on it post the hackathon as a viable business / group. So think outside the box, and come up with something innovative, but be grounded to reality!!", winner: "CleARsight", link: "https://rv2019.devpost.com/submissions/109629-clear-sight", winnerTwo: "AccessibleLocomotionWebXR", linkTwo: "https://devpost.com/software/accessiblelocomotionwebxr"}
+ #- {title: "Wayfair Social Media", image: "logo_wayfair.png", info: "Oculus Go", description: "Win one by following `@wayfairatwork` on instagram/twitter, post a photo and tag `@wayfairatwork` with hashtag `#wayfairnext`"}
+ - {title: "Data Visualization Challenge", image: "logo_fidelity.png", info: "$2,500 Cash Prize", description: "Fidelity Investments is best known as a financial services company dedicated to enabling our clients to
+achieve lifelong financial independence and peace of mind.
+Fidelity Investments is also a technology company. We’re exploring new technologies like Virtual and
+Augmented Reality, Blockchain, and AI, as well as unexpected applications of new hardware/software
+including (but certainly not limited to) immersive user interfaces, interactions with digital agents, and
+zero UI. 
+ 
+The Fidelity Data Visualization prize will be awarded to the project that evolves two-dimensional (2D)
+renderings of data into three dimensions (3D) and most effectively combines the following criteria
+within an innovative, technological solution to the challenge of articulating the value of data in a visually
+compelling format.", winner: "Cosmos VR", link: "https://devpost.com/software/cosmovr"}
+ - {title: "Best Application for Accessibility", info: "$500", winner: "AccessibleLocomotionWebXR", link: "https://devpost.com/software/accessiblelocomotionwebxr"}
+ - {title: "Best use of AR in the Public Realm", info: "$500 Visa Gift Card", winner: "HighAR Ground", link: "https://devpost.com/software/ice-breakers-wa829m"}
+ - {title: "Best Use of HTC Utility Kit", image: "logo_htcvive.png", info: "$25 Steam Gift Card to each team member", winner: "Bird Box", link: "https://devpost.com/software/bird-box"}
+ - {title: "Best Use of HTC Trackers", image: "logo_htcvive.png",info: "HTC Vive Trackers", winner: "VR Fitness", link: "https://devpost.com/software/vr-fitness"}
+ - {title: "Best Use of HTC Trackers", image: "logo_htcvive.png",info: "HTC Vive Focus", winner: "AccessibleLocomotionWebXR", link: "https://devpost.com/software/accessiblelocomotionwebxr"}
+
+prizesCategoriesTitle: "Category Winners"
+prizesCategories:
+  - {title: "Social Good", info: "$1,000 Cash Prize <br> 4 Oculus Go (sponsored by Oculus)", winner: "HighAR Ground", link: "https://devpost.com/software/highar-ground"}
+  - {title: "Mobility & Communications", info: "$1,000 Cash Prize", winner: "heAR", link: "https://devpost.com/software/hear"}
+  - {title: "Health & Wellness", info: "$1,000 Cash Prize", winner: "Bright", link: "https://devpost.com/software/bright"}
+  - {title: "Art, Media & Entertainment", info: "$1,000 Cash Prize", winner: "Bird Box", link: "https://devpost.com/software/bird-box"}
+  - {title: "Games & Learning", info: "$1,000 Cash Prize", winner: "Together", link: "https://devpost.com/software/together-gi26w9"}
+  - {title: "Productivity", info: "$1,000 Cash Prize", winner: "PresentXR", link: "https://devpost.com/software/iron-man"}
+  - {title: "Industrial & Commercial", info: "$1,000 Cash Prize", winner: "Sound Space", link: "https://devpost.com/software/sound-space"}
+
+# Hackathon Location Block
+hackathonLocationBlockTitle: "Location"
+hackathonLocationName: "Communa"
+hackathonLocationLink: "http://communa.net.ua/"
+hackathonStreetAddress: "1 Halytska St"
+hackathonAddressLocality: "Lviv"
+hackathonAddressLocalityRegion: "Lvivska"
+hackathonPostalCode: "79000"
+hackathonAddressCountry: "Ukraine"
+hackathonTimeTitle: "Hack through"
+hackathonStartTime: "2014-10-24T10:00"
+hackathonDoorTime: "09:00"
+hackathonEndTime: "2014-10-25T00:00"
+viewOnMap: "View on Google Maps"
+hackathonPlaceCoordinates: "49.840999, 24.031144"
+hackathonMapCenterCoordinates: "49.840696, 24.028754"
+hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"
+
+
+
+##ADMIN
+applicationsEnpointUSA: ""
+applicationsEnpointEUROPE: ""
+applicationsEnpointTEST: "https://script.google.com/macros/s/AKfycbyaWiGh56mFtSNXcUMkj4vPjX9Y7TaU6N7toA53FVQTVDdkyX-5/exec"
