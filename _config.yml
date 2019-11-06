@@ -24,7 +24,7 @@ siteVerification: ""
 organizerName: ""
 organizerAlternateName: ""
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "team@mlbias.org"
+organizerEmail: "teammlbias@gmail.com"
 #organizerLogo: "/img/seo/mlb.png"
 organizerLink: "https://mlbias.org"
 
@@ -289,7 +289,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:team@mlbias.org", text: "team@mlbias.org"}
+   - {link: "mailto:teammlbias@gmail.com", text: "teammlbias@gmail.com"}
  -
   title: "Information"
   links:
