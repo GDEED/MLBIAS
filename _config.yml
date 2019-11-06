@@ -291,9 +291,9 @@ footerBlocks:
   links:
    - {link: "mailto:teammlbias@gmail.com", text: "teammlbias@gmail.com"}
  -
-  title: "Information"
-  links:
-   - {permalink: "/faq/", text: "FAQ"}
+#  title: "Information"
+#  links:
+#   - {permalink: "/faq/", text: "FAQ"}
 
 # Blog
 blogTitle: "Latest news"
